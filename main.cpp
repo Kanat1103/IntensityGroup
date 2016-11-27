@@ -16,6 +16,11 @@ int main(int argc, char *argv[]) {
     
         threshold (out,out,64,128,THRESH_BINARY);
     
+    nameWindow("Lena", CV_WINDOW_AUTOSIZE);
+    nameWindow("Out, CV_WINDOW_AUTOSIZE);
+    imshow("Lena",image);
+    imshow("Out",out);
+    
     waitKey(0);
     return 0;
 }
